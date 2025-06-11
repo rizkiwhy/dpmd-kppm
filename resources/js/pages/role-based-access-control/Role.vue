@@ -6,14 +6,14 @@ import PlaceholderPattern from '../../components/PlaceholderPattern.vue';
 
 const breadcrumbs: BreadcrumbItem[] = [
     {
-        title: 'User',
-        href: '/user',
+        title: 'Role',
+        href: '/role',
     },
 ];
 </script>
 
 <template>
-    <Head title="Kelola User" />
+    <Head title="Kelola Role" />
 
     <AppLayout :breadcrumbs="breadcrumbs">
         <div class="flex h-full flex-1 flex-col gap-4 rounded-xl p-4">
